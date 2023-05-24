@@ -15,7 +15,7 @@ def tit(s):
     t=s   
     PyDE.title(t+"-PyDE By Testbot")
 def Openfile():
-        p=askopenfilename(filetypes=[('Python Files','*.py')])
+        p=askopenfilename(filetypes=[('Python Files','*.py'),('TBANYTHON Files','*.tby'),('HTML Files','*.html'),('TBANYTHON Turtle Scripts','*.tts')])
         with open(p,'r') as file:
             code=file.read()
             IOsys.delete('1.0',END)
@@ -24,7 +24,7 @@ def Openfile():
             temp=p
             tit(p) 
 def Save():
-        p=asksaveasfilename(filetypes=[('Python Files','*.py')])
+        p=asksaveasfilename(filetypes=[('Python Files','*.py'),('TBANYTHON Files','*.tby'),('HTML Files','*.html'),('TBANYTHON Turtle Scripts','*.tts')])
         with open(p,'w') as file:
             code=IOsys.get('1.0',END)
             file.write(code)
@@ -32,6 +32,7 @@ def Save():
             temp=p
             tit(p)    
 def info():
+    try:
         with open('Pyde-Linux.py','r') as file:
             code=file.read()
             IOsys.delete('1.0',END)
@@ -39,6 +40,8 @@ def info():
             global temp
             temp='/home/user/Desktop/ICT/vspc/Pyde-Linux.py'
             tit(temp)
+    except:
+        pass        
 def clear():
         IOsys.delete('1.0',END)
 def execute():
