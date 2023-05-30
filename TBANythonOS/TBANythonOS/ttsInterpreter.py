@@ -6,7 +6,8 @@ commands = {
     "+": turtle.right,
     "-": turtle.left,
     "[": turtle.penup,
-    "]": turtle.pendown
+    "]": turtle.pendown,
+    "M": turtle.mainloop
 }
 
 # Load in our program from a file
