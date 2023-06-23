@@ -1,14 +1,12 @@
 # Project-TBANython
 
-this project is made as a small tool for python devs and minecraft players.
+this project is made as a small toolkit for python devs and minecraft players.
 
-This project has an in built python ide and minecraft launcher.it has a game engine too.
+This project has an in built python ide and minecraft launcher.it has a game  too.
+plus a programming language 
 
 you can edit this code for your personal use.
 
-also,don't upload the code anywhere without my permission.pls 
-
-you can create pull requests and i will examine them.OK?
 
 INSTALLATION
 ------------
